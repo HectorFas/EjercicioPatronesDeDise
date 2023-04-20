@@ -1,3 +1,5 @@
+package Builder;
+
 class Computer {
     String HDD, RAM;
     boolean isGraphicsCardEnabled;
@@ -5,7 +7,7 @@ class Computer {
 
     @Override
     public String toString() {
-        return "Computer{" +
+        return "Builder.Computer{" +
                 "HDD='" + HDD + '\'' +
                 ", RAM='" + RAM + '\'' +
                 ", isGraphicsCardEnabled=" + isGraphicsCardEnabled +
